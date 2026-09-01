@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # leetcode-pandas
 
 A personal collection of my pandas solutions for the **LeetCode 30 Days of Pandas**
@@ -38,3 +39,7 @@ so I get comfortable with the full pandas vocabulary rather than memorising a
 single template.
 
 Collected since 2024.
+=======
+# practice-pandas-leetcode
+learning pandas with leetcode challenges 
+>>>>>>> 47e7045b02eaedb0930f051007f811fd21520f26
