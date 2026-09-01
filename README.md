@@ -39,7 +39,3 @@ so I get comfortable with the full pandas vocabulary rather than memorising a
 single template.
 
 Collected since 2024.
-=======
-# practice-pandas-leetcode
-learning pandas with leetcode challenges 
-
