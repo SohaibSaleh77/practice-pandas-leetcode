@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leetcode-pandas"
+version = "0.1.0"
+description = "Personal collection of LeetCode 30 Days of Pandas solutions, gathered since 2024."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Self-learner" }]
+keywords = ["pandas", "leetcode", "exercises", "learning"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Education",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+]
+
+[tool.setuptools]
+# This is a scripts-only repo, no packages to ship.
+packages = []
+
+[tool.pytest.ini_options]
+testpaths = ["easy", "medium", "hard"]
+python_files = ["*.py"]
+addopts = "-q"
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
