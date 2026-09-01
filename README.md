@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # leetcode-pandas
 
 A personal collection of my pandas solutions for the **LeetCode 30 Days of Pandas**
@@ -42,4 +42,4 @@ Collected since 2024.
 =======
 # practice-pandas-leetcode
 learning pandas with leetcode challenges 
->>>>>>> 47e7045b02eaedb0930f051007f811fd21520f26
+
